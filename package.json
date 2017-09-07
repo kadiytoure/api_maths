@@ -1,0 +1,27 @@
+{
+  "name": "api_maths",
+  "version": "0.0.1",
+  "description": "API & MATHS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadiytoure/api_maths.git"
+  },
+  "keywords": [
+    "API",
+    "&",
+    "MATHS"
+  ],
+  "author": "kadiy_simplon tourekadiy@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kadiytoure/api_maths/issues"
+  },
+  "homepage": "https://github.com/kadiytoure/api_maths#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}

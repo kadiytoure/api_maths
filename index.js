@@ -2,8 +2,10 @@ const express = require('express');
 
 let app = express();
 app.get("/add", function(req, res) {
+    let a = parseFloat(req.query.a);
+    let b = parseFloat(req.query.b);
     console.log(req);
-    res.send("ok");
+    res.send("a + b");
 });
 
 const port = 8080;
